@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Secreto</title>
+  <link rel="shortcut icon" href="/img/Group 3.png" type="">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+<body>
+  <div class="container">
+      <img src="img/Group 3.png" alt="" class="img" id="img">
+    
+    <div class="encriptar">
+      <textarea id="texto" class="texto" placeholder="Ingresa el texto aquí"></textarea>
+      <div class="terminos">
+        <p>Solo letras minúsculas y sin acentos.</p>
+      </div>
+      <div class="botones">
+        <button class="btn-encriptar" onclick="encriptar()">Encriptar</button>
+        <button class="btn-desencriptar" onclick="desencriptar()" style="display: none;">Desencriptar</button>
+    </div>
+        <!-- <a href="img/Group 3.png"> <p>Solo letras minúsculas y sin acentos.</p></a> -->
+    </div>
+    <div class="encriptado">
+      <img src="img/muñeco.png" alt="Muñeco" id="muñeco">
+      <div class="mensaje-encriptado">
+        <h2 id="titulo-mensaje">Ningún mensaje fue encontrado</h2>
+        <p id="parrafo">Ingresa el texto que deseas encriptar o desencriptar</p>
+        <div><a href="https://github.com/Faber-21Uchiha">Desarollado..<samp>Faber Aleman</samp></a></div>
+    </div>
+</div>
+</div>
+  <script src="js/script.js"></script>
+</body>
+</html>
